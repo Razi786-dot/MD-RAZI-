@@ -83,3 +83,16 @@ form.addEventListener('submit', (e) => {
         alert("Thank you! Your message has been sent.");
     }
 });
+/* Basic Mobile Styling */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    header, section {
+        padding: 1em;
+    }
+    button {
+        width: 100%;
+    }
+}
+<meta name="description" content="MD RAZI HUSSAIN - Freelance Developer specializing in web development, app creation, and consulting.">
